@@ -23,7 +23,7 @@ This project is a URL shortener application that allows users to create shortene
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/stefanopiccodev/shortly
    ```
 
 2. **Navigate to the project directory**:
@@ -40,14 +40,11 @@ This project is a URL shortener application that allows users to create shortene
    - Frontend: `http://localhost:3000`
    - Backend API: `http://localhost:4000`
 
-## Environment Variables
+## Environment Variables (Dev)
 
-Ensure you have a `.env` file in the root directory with the following variables:
+Ensure you have a `.env` file in the backend directory with the following variables:
 
 ```
-POSTGRES_USER=user
-POSTGRES_PASSWORD=password
-POSTGRES_DB=urlshortener
-DATABASE_URL=postgresql://user:password@postgres:5432/urlshortener
-BASE_URL=http://localhost:3000
+DATABASE_URL=postgresql://user:password@localhost:5432/urlshortener
+BASE_URL=http://localhost:4000
 ```
