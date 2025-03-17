@@ -1,0 +1,27 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Docker
+**/node_modules
+**/pgdata
+
+# Environment variables
+.env
+
+# Build outputs
+dist
+build
+
+# IDE files
+.idea
+.vscode
+
+# Misc
+.DS_Store
+Thumbs.db 
